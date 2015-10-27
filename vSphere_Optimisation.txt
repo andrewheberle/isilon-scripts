@@ -1,0 +1,4 @@
+mkdir /ifs/vsphere
+chown nobody /ifs/vsphere
+isi set -p +2:1 -l random -R -s avoid /ifs/vsphere
+isi nfs exports create /ifs/vsphere --description "vSphere NFS Export" --all-dirs true

@@ -1,0 +1,3 @@
+isi auth ads spn check --domain coxgroup.internal
+isi auth ads spn check --domain=coxgroup.internal --user=ext-SaxxonITMartin --password=pwd4saxxon --repair
+isi auth ads spn check --domain coxgroup.internal

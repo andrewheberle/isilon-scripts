@@ -1,0 +1,1 @@
+isi sync policies create syd-dat-data sync /ifs/data coxdatisilon.coxgroup.internal /ifs/data/syd --source-subnet subnet0 --source-pool pool0 --source-exclude-directories /ifs/data/Temp --restrict-target-network True --target-compare-initial-sync True --schedule "every 1 days every 8 hours between 12:00 AM and 11:59 PM"
